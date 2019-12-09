@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
-
+import MovieList from './Movies/MovieList';
+import Movie from './Movies/Movie';
 import SavedList from './Movies/SavedList';
 
 const App = () => {
